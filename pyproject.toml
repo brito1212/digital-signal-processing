@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "digital-signal-processing"
+version = "0.1.0"
+description = "Digital Signal Processing"
+authors = ["brito1212 <felipef_brito@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matlab = "^0.1"
+
+[tool.poetry.group.dev.dependencies]
+matlab = "^0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
