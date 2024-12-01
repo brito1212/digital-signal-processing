@@ -14,6 +14,7 @@ scipy = "^1.14.1"
 sympy = "^1.13.2"
 control = "^0.10.1"
 simpleaudio = "^1.0.4"
+pyedflib = "^0.1.38"
 
 [tool.poetry.group.dev.dependencies]
 matlab = "^0.1"
